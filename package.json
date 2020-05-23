@@ -1,0 +1,25 @@
+{
+  "name": "layout-4",
+  "version": "1.0.0",
+  "description": "Ejercicio 4: Crearemos un elemento de tipo card con Grid CSS",
+  "main": "index.js",
+  "scripts": {
+    "start": "rimraf dist && parcel src/index.html --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sirclap/layout-4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sirclap/layout-4/issues"
+  },
+  "homepage": "https://github.com/sirclap/layout-4#readme",
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "rimraf": "^3.0.2",
+    "sass": "^1.26.5"
+  }
+}

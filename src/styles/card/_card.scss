@@ -1,0 +1,41 @@
+.card {
+    display: inline-grid;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "card-image"
+        "card-title"
+        "card-content"
+        "card-date"
+        "card-toolbar";
+    border: $card-border;
+    background-color: $card-bg-color;
+
+    .card-image {
+        grid-area: card-image;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .card-title {
+        grid-area: card-title;        
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    .card-content {
+        grid-area: card-content;
+        padding: 1rem;
+    }
+
+    .card-date {        
+        grid-area: card-date;     
+        padding: 1rem;
+    }
+
+    .card-toolbar {
+        grid-area: card-toolbar;
+        padding: 1rem;
+    }
+}
